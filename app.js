@@ -3,7 +3,7 @@ var client = require('twilio')('ACCOUNT_SID', 'AUTH_TOKEN');
 
 var sendTextMessage = function() {
     client.sendMessage({
-        to:'+1551231234', 
+        to:'+1551231234','7736476891'
         from: '+1551231234', 
         body: 'Tickets on sale!!!' 
     }, function(err, responseData) { 

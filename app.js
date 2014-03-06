@@ -1,5 +1,5 @@
 var jsdom = require("jsdom");
-var client = require('twilio')('AC16fc53b6c8d954a8a4b197c9b46e58ef', '748234b004e774b73578f5695ddbd849');
+var client = require('twilio')('ACCOUNT_SID', 'AUTH_TOKEN');
 
 var sendTextMessage = function() {
     client.sendMessage({
